@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.17"
+            android:gravity="center_vertical|center"
+            android:text="街区"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <Button
+            android:id="@+id/signup.btn_go"
+            android:layout_width="62dp"
+            android:layout_height="32dp"
+            android:text="注册" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="注册并接受街区的各项规定。" />
+
+        <EditText
+            android:id="@+id/signup.txt_username"
+            android:singleLine="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:hint="登录名" />
+
+        <EditText
+            android:id="@+id/signup.txt_password"
+            android:singleLine="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:hint="密码" />
+
+        <EditText
+            android:id="@+id/signup.txt_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress" android:hint="Email" />
+
+        <EditText
+            android:id="@+id/signup.txt_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone" android:hint="电话" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center"
+        android:text="登录街区" />
+
+    <Button
+        android:id="@+id/signup.btn_signin"
+        android:layout_width="79dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center"
+        android:gravity="center_vertical|center"
+        android:text="登录" />
+
+</LinearLayout>

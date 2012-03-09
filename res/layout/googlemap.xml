@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.67"
+            android:text="地图定位" />
+
+        <Button
+            android:id="@+id/googlemap.btn_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="确定" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/googlemap.txt_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <requestFocus />
+    </EditText>
+
+    <com.google.android.maps.MapView  
+    xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:id="@+id/googlemap.map_mapview"  
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+    android:clickable="true"  
+    android:apiKey="0GJ9Ak56a4XykjMVQDhCcxZc863qB5BHZlEkA-g"  
+	/>
+</LinearLayout>
+
+  

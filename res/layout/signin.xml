@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/ASDFASD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.22"
+            android:gravity="center_vertical|center_horizontal|center"
+            android:text="街区"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <Button
+            android:id="@+id/signin.btn.OK"
+            android:layout_width="wrap_content"
+            android:layout_height="33dp"
+            android:gravity="center"
+            android:text="确定" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/asdgzxcvb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="登录" android:gravity="center_vertical|center"/>
+
+    <EditText
+        android:id="@+id/signin.txt_username"
+        android:singleLine="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:hint="用户名" />
+
+    <EditText
+        android:id="@+id/signin.txt_password"
+        android:singleLine="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:hint="密码" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="忘记密码？" android:gravity="center"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" android:gravity="bottom|center">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="还没有街区账户？" />
+
+        <Button
+            android:id="@+id/signin.btn_signup"
+            android:layout_width="116dp"
+            android:layout_height="34dp"
+            android:gravity="top|center"
+            android:text="注册" />
+
+    </LinearLayout>
+
+</LinearLayout>

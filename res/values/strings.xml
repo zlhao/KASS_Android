@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World!</string>
+    <string name="app_name">KASS</string>
+    <string name="MyActivity">个人中心</string>
+    <string name="Iwant">发布</string><string name="Iprovide">反聩</string><string name="Post">发布</string>
+    <string name="Browse">浏览</string>
+    <string name="SignIn">登录</string>
+    
+    
+
+</resources>

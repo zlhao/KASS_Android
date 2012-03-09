@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost android:id="@android:id/tabhost" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" 	
+	xmlns:android="http://schemas.android.com/apk/res/android">
+    
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+		<FrameLayout android:id="@+id/main.msg_title"
+			android:visibility="gone" 
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content">
+			
+			<TextView android:id="@+id/main.tv_wb" 
+			    android:layout_height="wrap_content"
+				android:layout_width="fill_parent" >
+			</TextView>
+				
+		</FrameLayout>
+		
+		<FrameLayout android:id="@android:id/tabcontent"
+			android:layout_width="fill_parent" 
+			android:layout_height="0.0dip"
+			android:layout_weight="1.0" />
+			
+		<TabWidget android:id="@android:id/tabs" 
+			android:visibility="gone"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"
+			android:layout_weight="0.0" />
+			
+		<RadioGroup android:id="@+id/main.rgrop_maintab" 
+		    android:gravity="center_vertical"
+			android:layout_gravity="bottom" 
+			android:orientation="horizontal"			
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"
+			android:background="@drawable/main_toolbar_bg">
+             
+			<RadioButton android:id="@+id/main.rbtn_MyActivity" 
+			    android:tag="radio_MyActivity"
+				android:layout_marginTop="2.0dip"
+				android:text="@string/MyActivity"
+				android:drawableTop="@drawable/ic_launcher" style="@style/main_button"
+				android:checked="true" />
+				
+			<RadioButton android:id="@+id/main.rbtn_Post" 
+			    android:tag="radio_Post"
+				android:layout_marginTop="2.0dip" 
+				android:text="@string/Post"
+				android:drawableTop="@drawable/ic_launcher" style="@style/main_button"/>
+				
+			<RadioButton android:id="@+id/main.rbtn_Browse" 
+			    android:tag="radio_Browse"
+				android:layout_marginTop="2.0dip" 
+				android:text="@string/Browse"
+				android:drawableTop="@drawable/ic_launcher" style="@style/main_button"/>
+				
+			<RadioButton android:id="@+id/main.rbtn_SignIn" 
+			    android:tag="radio_SignIn"
+				android:layout_marginTop="2.0dip" 
+				android:text="@string/SignIn"
+				android:drawableTop="@drawable/ic_launcher" style="@style/main_button"/>				
+
+		</RadioGroup>
+	</LinearLayout>
+</TabHost>	

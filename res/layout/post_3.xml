@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/post_3.linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/post_3.textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.59"
+            android:text="发布消息"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <Button
+            android:id="@+id/post_3.btn_next"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="下一步" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal|center"
+        android:text="时限"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/post_3.txv_time"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal|center"
+        android:hint="请选择时间"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ListView
+        android:id="@+id/post_3.lstv_time"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_weight="0.14"
+        android:dividerHeight="1dp"
+        android:fadingEdge="none">
+
+    </ListView>
+
+    <LinearLayout
+        android:id="@+id/post_1.linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom" >
+
+        <Button
+            android:id="@+id/post_3.btn_to1"
+            android:layout_width="100dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.89"
+            android:background="#e0000000"
+            android:text="&lt;需求"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/post_3.btn_to2"
+            android:layout_width="100dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.89"
+            android:background="#e0000000"
+            android:text="&lt;价格"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.89"
+            android:gravity="center_vertical|center_horizontal|center"
+            android:text="时间"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+</LinearLayout>
