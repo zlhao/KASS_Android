@@ -29,7 +29,7 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:gravity="center_vertical|center_horizontal|center"
-        android:text="时限"
+        android:text="关注的时间"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <TextView

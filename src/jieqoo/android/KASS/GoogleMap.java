@@ -65,7 +65,7 @@ public class GoogleMap extends MapActivity implements OnClickListener{
 	public void onResume()
 	{
 		super.onResume();
-		
+
 		MyApp myapp=((MyApp)getApplicationContext());
   		txt_address.setText((myapp).getAddress());
 	}

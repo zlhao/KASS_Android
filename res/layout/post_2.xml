@@ -29,14 +29,14 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:gravity="center_vertical|center_horizontal|center"
-        android:text="可以接受的价格（人民币：元）"
+        android:text="可以接受的价格"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <EditText
         android:id="@+id/post_2.txt_price"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="0.79" android:hint="价格" android:gravity="top|center" android:numeric="integer">
+        android:layout_weight="0.79" android:hint="价格" android:gravity="top|center">
 
         <requestFocus />
     </EditText>

@@ -27,7 +27,7 @@ public class Main extends TabActivity {
          String name_store=setting.getString("name","");
          //String passwd_store=setting.getString("password", "");
 
-        MyApp myapp=((MyApp)getApplicationContext());
+         MyApp myapp=((MyApp)getApplicationContext());
         myapp.setUserName(name_store);
         }
         

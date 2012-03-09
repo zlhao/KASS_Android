@@ -38,15 +38,6 @@
         android:id="@+id/frameLayout1"
         android:layout_width="match_parent"
         android:layout_height="85dp" >
-
-        <GridView
-            android:id="@+id/gridView1"
-            android:layout_width="match_parent"
-            android:layout_height="121dp"
-            android:numColumns="3" >
-
-        </GridView>
-
     </FrameLayout>
 
     <TextView
@@ -60,14 +51,6 @@
         android:id="@+id/frameLayout2"
         android:layout_width="match_parent"
         android:layout_height="85dp" >
-
-        <GridView
-            android:id="@+id/gridView2"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:numColumns="3" >
-        </GridView>
-
     </FrameLayout>
 
     <TextView
@@ -81,14 +64,6 @@
         android:id="@+id/frameLayout3"
         android:layout_width="match_parent"
         android:layout_height="85dp" >
-
-        <GridView
-            android:id="@+id/gridView3"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:numColumns="3" >
-        </GridView>
-
     </FrameLayout>
 
     <Button

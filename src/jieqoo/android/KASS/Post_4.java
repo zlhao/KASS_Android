@@ -53,7 +53,6 @@ public class Post_4 extends Activity  implements OnClickListener{
 		btn_cencel.setOnClickListener(this);
 		
 		btn_ok=( Button ) findViewById(R.id.post_4_btn_OK);
-		btn_ok.setFocusable(true);
 		btn_ok.setOnClickListener(this);
 	}
 	
